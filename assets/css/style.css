@@ -45,7 +45,13 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+.date{
+  display:inline-block;
+}
+.date::first-letter {
+text-transform: lowercase;
 
+} 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
